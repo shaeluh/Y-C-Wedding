@@ -852,8 +852,8 @@ function App() {
       </p>
 
       <p>
-        We want you to relive the beautiful moments of our special day! We've gathered the memories captured during our wedding and 
-        would love for you to look back on them with us. Scan the QR code to access our collection of photos and videos.
+        We want you to relive the beautiful moments of our special day! We'll be gathering the memories captured throughout our wedding and would love for you to look back on them with us.
+        Scan the QR code to access our collection of photos and videos and cherish these moments with us.
       </p>
     </div>
 
