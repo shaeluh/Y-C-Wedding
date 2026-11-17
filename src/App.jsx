@@ -59,7 +59,7 @@ function Countdown() {
             {String(unit.value).padStart(2, "0")}
           </span>
 
-          <span className="mt-2 text-[8px] uppercase tracking-[0.12em] text-[#92774d] sm:text-[10px] sm:tracking-[0.2em]">
+          <span className="mt-2 text-xs uppercase tracking-[0.12em] text-[#92774d] sm:text-xs sm:tracking-[0.2em]">
             {unit.label}
           </span>
 
@@ -98,7 +98,7 @@ function App() {
               <a
                 key={name}
                 href={link}
-                className="text-[10px] uppercase tracking-[0.17em] text-[#685e54] transition hover:text-[#ae925b]"
+                className="text-xs uppercase tracking-[0.17em] text-[#685e54] transition hover:text-[#ae925b]"
               >
                 {name}
               </a>
@@ -157,13 +157,13 @@ function App() {
           {/* Top label */}
         <div className="mb-8 flex items-center justify-center gap-3">
           <span className="h-px w-7 bg-[#b0935c]" />
-          <p className="text-[9px] uppercase tracking-[0.25em] text-[#92774d] sm:text-[11px]">
+          <p className="text-[11px] uppercase tracking-[0.25em] text-[#92774d] sm:text-[11px]">
             Together with their families
           </p>
           <span className="h-px w-7 bg-[#b0935c]" />
         </div>
 
-        <p className="text-[10px] uppercase tracking-[0.2em] text-[#51463d] sm:text-xs sm:tracking-[0.28em]">
+        <p className="text-xs uppercase tracking-[0.2em] text-[#51463d] sm:text-xs sm:tracking-[0.28em]">
           You are invited to the wedding of
         </p>
 
@@ -194,13 +194,13 @@ function App() {
           JANUARY 23, 2027
         </p>
 
-        <p className="mt-2 text-[9px] uppercase tracking-[0.2em] text-[#92774d] sm:text-[10px]">
+        <p className="mt-2 text-[11px] uppercase tracking-[0.2em] text-[#92774d] sm:text-xs">
           Saturday · 09:00 AM
         </p>
 
         <p className="mx-auto mt-7 max-w-md font-display text-[17px] italic font-normal leading-8 tracking-wide text-[#8b7b6d] sm:text-xl sm:leading-9">
   “I am my beloved’s, and my beloved is mine.”
-  <span className="mt-2 block not-italic text-[10px] uppercase tracking-[0.3em] text-[#b09365]">
+  <span className="mt-2 block not-italic text-xs uppercase tracking-[0.3em] text-[#b09365]">
     Song of Songs 6:3a
   </span>
 </p>
@@ -208,13 +208,13 @@ function App() {
            {/* Invitation button */}
         <a
           href="#details"
-          className="mt-9 inline-flex min-h-12 items-center justify-center gap-3 bg-[#ae925b] px-8 py-4 text-[9px] uppercase tracking-[0.2em] text-white transition duration-300 hover:bg-[#92774d] sm:text-[10px]"
+          className="mt-9 inline-flex min-h-12 items-center justify-center gap-3 bg-[#ae925b] px-8 py-4 text-[11px] uppercase tracking-[0.2em] text-white transition duration-300 hover:bg-[#92774d] sm:text-xs"
         >
           Explore Invitation
           <ArrowDown size={14} />
         </a>
 
-           <div className="mt-9 text-[9px] uppercase tracking-[0.25em] text-[#92774d]">
+           <div className="mt-9 text-[11px] uppercase tracking-[0.25em] text-[#92774d]">
           ✦ &nbsp; Our Wedding Day &nbsp; ✦
         </div>
 
@@ -227,7 +227,7 @@ function App() {
       <div className="relative flex flex-col items-center justify-center border-t border-dashed border-[#b0935c]/60 bg-[#f8f5ef] px-6 py-10 text-center md:border-l md:border-t-0">
 
         {/* Vertical wedding pass label */}
-        <p className="text-[9px] uppercase tracking-[0.3em] text-[#92774d]">
+        <p className="text-[11px] uppercase tracking-[0.3em] text-[#92774d]">
           Wedding Pass
         </p>
 
@@ -241,7 +241,7 @@ function App() {
           ))}
         </div>
 
-        <p className="text-[9px] uppercase tracking-[0.2em] text-[#92774d]">
+        <p className="text-[11px] uppercase tracking-[0.2em] text-[#92774d]">
           Save the Date
         </p>
 
@@ -255,7 +255,7 @@ function App() {
           Yobel & Crissha
         </p>
 
-        <p className="mt-3 text-[8px] uppercase tracking-[0.2em] text-[#92774d]">
+        <p className="mt-3 text-xs uppercase tracking-[0.2em] text-[#92774d]">
           A Journey of Forever
         </p>
 
@@ -268,7 +268,7 @@ function App() {
     </div>
 
     {/* Bottom caption */}
-    <p className="mt-8 text-center text-[9px] uppercase tracking-[0.3em] text-[#92774d]">
+    <p className="mt-8 text-center text-[11px] uppercase tracking-[0.3em] text-[#92774d]">
       By His sovereign mercy, a lifetime of dependency begins here.
     </p>
   </motion.div>
@@ -291,7 +291,7 @@ function App() {
   >
     <div className="mb-5 flex items-center justify-center gap-3">
       <span className="h-px w-7 bg-[#b0935c]" />
-      <p className="text-[9px] uppercase tracking-[0.28em] text-[#92774d]">
+      <p className="text-[11px] uppercase tracking-[0.28em] text-[#92774d]">
         Save the Date
       </p>
       <span className="h-px w-7 bg-[#b0935c]" />
@@ -315,7 +315,7 @@ function App() {
       <span className="h-px w-8 bg-[#b0935c]" />
     </div>
 
-    <p className="mt-6 text-[9px] uppercase tracking-[0.22em] text-[#92774d]">
+    <p className="mt-6 text-[11px] uppercase tracking-[0.22em] text-[#92774d]">
       Until Yobel & Crissha say I do
     </p>
   </motion.div>
@@ -338,7 +338,7 @@ function App() {
     <div className="mb-14 text-center">
       <div className="mb-4 flex items-center justify-center gap-3">
         <span className="h-px w-7 bg-[#b0935c]" />
-        <p className="text-[9px] uppercase tracking-[0.28em] text-[#92774d]">
+        <p className="text-[11px] uppercase tracking-[0.28em] text-[#92774d]">
           Save the Date
         </p>
         <span className="h-px w-7 bg-[#b0935c]" />
@@ -393,13 +393,13 @@ function App() {
         href="https://www.google.com/maps/search/?api=1&query=Church+of+God+in+Quezon+City%2C+1608+Quezon+Ave%2C+Diliman%2C+Quezon+City%2C+Metro+Manila%2C+Philippines"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex min-h-12 w-full max-w-xs items-center justify-center gap-3 bg-[#ae925b] px-7 py-4 text-[9px] uppercase tracking-[0.2em] text-white transition hover:bg-[#92774d]"
+        className="inline-flex min-h-12 w-full max-w-xs items-center justify-center gap-3 bg-[#ae925b] px-7 py-4 text-[11px] uppercase tracking-[0.2em] text-white transition hover:bg-[#92774d]"
       >
         <Navigation size={15} />
         View Venue Location
       </a>
 
-      <p className="text-center text-[9px] uppercase tracking-[0.15em] text-[#92774d]">
+      <p className="text-center text-[11px] uppercase tracking-[0.15em] text-[#92774d]">
         We can't wait to see you
       </p>
     </div>
@@ -413,7 +413,7 @@ function App() {
 
     {/* Section Heading */}
     <div className="mb-12 text-center">
-      <p className="mb-3 text-[10px] uppercase tracking-[0.35em] text-[#a88b59]">
+      <p className="mb-3 text-xs uppercase tracking-[0.35em] text-[#a88b59]">
         What to Wear
       </p>
 
@@ -434,7 +434,7 @@ function App() {
       <div className="border border-[#c3a875]/50 bg-white p-7 text-center">
         <div className="mb-4 text-2xl text-[#a88b59]">✧</div>
 
-        <p className="mb-2 text-[9px] uppercase tracking-[0.25em] text-[#a88b59]">
+        <p className="mb-2 text-[11px] uppercase tracking-[0.25em] text-[#a88b59]">
           Option One
         </p>
 
@@ -451,7 +451,7 @@ function App() {
       <div className="border border-[#c3a875]/50 bg-white p-7 text-center">
         <div className="mb-4 text-2xl text-[#a88b59]">✧</div>
 
-        <p className="mb-2 text-[9px] uppercase tracking-[0.25em] text-[#a88b59]">
+        <p className="mb-2 text-[11px] uppercase tracking-[0.25em] text-[#a88b59]">
           Option Two
         </p>
 
@@ -471,9 +471,6 @@ function App() {
     <div className="mt-10 border border-[#c3a875]/50 bg-[#f3efe7] px-6 py-8 sm:px-10">
 
       <div className="text-center">
-        <p className="text-[9px] uppercase tracking-[0.3em] text-[#a88b59]">
-          A Gentle Reminder
-        </p>
 
         <h3 className="mt-2 font-script text-4xl text-[#29221f]">
           A Godly Reminder!
@@ -549,7 +546,7 @@ function App() {
     <div className="mb-12 text-center sm:mb-16">
       <div className="mb-5 flex items-center justify-center gap-3">
         <span className="h-px w-8 bg-[#b0935c]" />
-        <p className="text-[10px] uppercase tracking-[0.3em] text-[#92774d]">
+        <p className="text-xs uppercase tracking-[0.3em] text-[#92774d]">
           A Day to Remember
         </p>
         <span className="h-px w-8 bg-[#b0935c]" />
@@ -667,7 +664,7 @@ function App() {
 
     {/* Closing Message */}
     <div className="mt-10 border border-[#b0935c]/40 bg-[#f7f4ee] px-5 py-9 text-center sm:px-10 sm:py-11">
-      <p className="text-[10px] uppercase tracking-[0.3em] text-[#92774d]">
+      <p className="text-xs uppercase tracking-[0.3em] text-[#92774d]">
         A Beautiful Beginning
       </p>
 
@@ -696,7 +693,7 @@ function App() {
 
     {/* Heading */}
     <div className="mb-10 text-center">
-      <p className="mb-3 text-[10px] uppercase tracking-[0.35em] text-[#a88b59]">
+      <p className="mb-3 text-xs uppercase tracking-[0.35em] text-[#a88b59]">
         A Token of Love
       </p>
 
@@ -745,7 +742,7 @@ function App() {
 
           <div className="my-5 flex items-center justify-center gap-3">
             <span className="h-px w-7 bg-[#c3a875]" />
-            <span className="text-[9px] tracking-[0.2em] text-[#a88b59]">
+            <span className="text-[11px] tracking-[0.2em] text-[#a88b59]">
               GOTYME
             </span>
             <span className="h-px w-7 bg-[#c3a875]" />
@@ -767,7 +764,7 @@ function App() {
 
           <div className="my-5 flex items-center justify-center gap-3">
             <span className="h-px w-7 bg-[#c3a875]" />
-            <span className="text-[9px] tracking-[0.2em] text-[#a88b59]">
+            <span className="text-[11px] tracking-[0.2em] text-[#a88b59]">
               MARIBANK
             </span>
             <span className="h-px w-7 bg-[#c3a875]" />
@@ -788,7 +785,7 @@ function App() {
         With grateful hearts,
       </p>
 
-      <p className="mt-2 text-[9px] uppercase tracking-[0.25em] text-[#796d62]">
+      <p className="mt-2 text-[11px] uppercase tracking-[0.25em] text-[#796d62]">
         Y & C
       </p>
     </div>
@@ -806,7 +803,7 @@ function App() {
 
     {/* Heading */}
     <div className="text-center">
-      <p className="mb-3 text-[10px] uppercase tracking-[0.35em] text-[#a88b59]">
+      <p className="mb-3 text-xs uppercase tracking-[0.35em] text-[#a88b59]">
         Every Moment Matters
       </p>
 
@@ -838,7 +835,7 @@ function App() {
     <div className="mx-auto mt-12 max-w-sm border border-[#c3a875]/70 bg-white p-5 shadow-sm sm:p-8">
       <div className="border border-[#c3a875]/30 p-4 sm:p-5">
 
-        <p className="mb-5 text-center text-[9px] uppercase tracking-[0.3em] text-[#a88b59]">
+        <p className="mb-5 text-center text-[11px] uppercase tracking-[0.3em] text-[#a88b59]">
           VIEW OUR WEDDING MEMORIES
         </p>
 
@@ -852,7 +849,7 @@ function App() {
 
         <div className="my-5 flex items-center justify-center gap-3">
           <span className="h-px w-8 bg-[#c3a875]" />
-          <span className="text-[9px] tracking-[0.2em] text-[#a88b59]">
+          <span className="text-[11px] tracking-[0.2em] text-[#a88b59]">
             GOOGLE DRIVE
           </span>
           <span className="h-px w-8 bg-[#c3a875]" />
@@ -871,7 +868,7 @@ function App() {
         <p className="font-script text-3xl text-[#a88b59]">
           Thank You!
         </p>
-        <p className="mt-2 text-[9px] uppercase tracking-[0.25em] text-[#796d62]">
+        <p className="mt-2 text-[11px] uppercase tracking-[0.25em] text-[#796d62]">
           Y & C
         </p>
       </div>
@@ -891,7 +888,7 @@ function App() {
 {/* RESPONSIVE FOOTER */}
 <footer className="w-full bg-[#28221f] px-4 py-10 text-center sm:px-6 sm:py-12 md:py-14 lg:py-16">
   <div className="mx-auto flex w-full max-w-5xl flex-col items-center">
-    <p className="text-[9px] uppercase tracking-[0.25em] text-[#b0935c] sm:text-[10px] sm:tracking-[0.35em] md:text-xs">
+    <p className="text-[11px] uppercase tracking-[0.25em] text-[#b0935c] sm:text-xs sm:tracking-[0.35em] md:text-xs">
       With Love and Gratitude
     </p>
 
@@ -901,11 +898,11 @@ function App() {
 
     <div className="my-4 h-px w-14 bg-[#b0935c] sm:my-5 sm:w-20 md:my-6" />
 
-    <p className="text-[10px] uppercase tracking-[0.2em] text-[#e7d9c2] sm:text-xs sm:tracking-[0.3em] md:text-sm">
+    <p className="text-xs uppercase tracking-[0.2em] text-[#e7d9c2] sm:text-xs sm:tracking-[0.3em] md:text-sm">
       January 23, 2027
     </p>
 
-    <p className="mt-7 max-w-full text-[8px] uppercase leading-6 tracking-[0.14em] text-[#bcae9d] sm:mt-8 sm:text-[9px] sm:tracking-[0.2em] md:mt-10 md:text-[10px] md:tracking-[0.25em]">
+    <p className="mt-7 max-w-full text-xs uppercase leading-6 tracking-[0.14em] text-[#bcae9d] sm:mt-8 sm:text-[11px] sm:tracking-[0.2em] md:mt-10 md:text-xs md:tracking-[0.25em]">
       Made with Love · Our Journey Begins Here
     </p>
   </div>
@@ -957,7 +954,7 @@ function App() {
         {/* Top ornament */}
         <div className="relative mb-4 flex items-center justify-center gap-2">
           <span className="h-px w-7 bg-[#b69a68]" />
-          <span className="text-[9px] tracking-[0.3em] text-[#a78b59]">
+          <span className="text-[11px] tracking-[0.3em] text-[#a78b59]">
             YOU ARE INVITED
           </span>
           <span className="h-px w-7 bg-[#b69a68]" />
@@ -971,7 +968,7 @@ function App() {
           Welcome Aboard!
         </h2>
 
-        <p className="relative mt-2 font-display text-[9px] uppercase tracking-[0.22em] text-[#a28a60]">
+        <p className="relative mt-2 font-display text-[11px] uppercase tracking-[0.22em] text-[#a28a60]">
           The Wedding of Yobel & Crissha
         </p>
 
@@ -1006,10 +1003,10 @@ function App() {
           <p className="font-script text-3xl text-[#a88b59]">
             With love,
           </p>
-          <p className="mt-1 font-display text-[10px] uppercase tracking-[0.22em] text-[#39332c]">
+          <p className="mt-1 font-display text-xs uppercase tracking-[0.22em] text-[#39332c]">
             Yobel & Crissha
           </p>
-          <p className="mt-2 text-[8px] tracking-[0.25em] text-[#9b855e]">
+          <p className="mt-2 text-xs tracking-[0.25em] text-[#9b855e]">
             JANUARY 23, 2027
           </p>
         </div>
@@ -1018,7 +1015,7 @@ function App() {
         <button
           type="button"
           onClick={() => setIsWelcomeOpen(false)}
-          className="relative mt-6 w-full border border-[#a88b59] bg-[#a88b59] px-5 py-3.5 text-[9px] uppercase tracking-[0.22em] text-white transition duration-300 hover:bg-[#8e754c]"
+          className="relative mt-6 w-full border border-[#a88b59] bg-[#a88b59] px-5 py-3.5 text-[11px] uppercase tracking-[0.22em] text-white transition duration-300 hover:bg-[#8e754c]"
         >
           Explore Our Invitation →
         </button>
@@ -1038,7 +1035,7 @@ function App() {
       transition={{ duration: 0.35, ease: "easeInOut" }}
       type="button"
       onClick={() => setIsWelcomeOpen(true)}
-      className="fixed bottom-5 right-5 z-[60] rounded-full border border-[#d6bd91]/50 bg-gradient-to-r from-[#faf8f3]/70 via-[#f5eee2]/65 to-[#d6bd91]/55 px-6 py-3 text-[9px] uppercase tracking-[0.2em] text-[#28221f] shadow-lg shadow-black/10 backdrop-blur-xl transition-all duration-300 hover:border-[#d6bd91] hover:from-[#faf8f3]/85 hover:to-[#d6bd91]/75 hover:shadow-xl"
+      className="fixed bottom-5 right-5 z-[60] rounded-full border border-[#d6bd91]/50 bg-gradient-to-r from-[#faf8f3]/70 via-[#f5eee2]/65 to-[#d6bd91]/55 px-6 py-3 text-[11px] uppercase tracking-[0.2em] text-[#28221f] shadow-lg shadow-black/10 backdrop-blur-xl transition-all duration-300 hover:border-[#d6bd91] hover:from-[#faf8f3]/85 hover:to-[#d6bd91]/75 hover:shadow-xl"
     >
       ♥ &nbsp; Welcome Note
     </motion.button>
@@ -1061,7 +1058,7 @@ function DetailCard({ icon, label, value, note }) {
         {icon}
       </div>
 
-      <p className="text-[9px] uppercase tracking-[0.25em] text-[#92774d]">
+      <p className="text-[11px] uppercase tracking-[0.25em] text-[#92774d]">
         {label}
       </p>
 
