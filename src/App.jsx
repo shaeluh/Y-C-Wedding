@@ -584,6 +584,7 @@ function App() {
           time: "9:10 AM",
           title: "Hymn Singing",
           detail: "NS 290",
+          link: "https://www.hymnal.net/en/hymn/ns/290",
         },
         {
           time: "9:25 AM",
@@ -608,6 +609,7 @@ function App() {
           time: "10:40 AM",
           title: "Hymn Singing",
           detail: "NS 862",
+          link: "https://www.hymnal.net/en/hymn/ns/862",
         },
         {
           time: "10:55 AM",
@@ -653,10 +655,22 @@ function App() {
             </h3>
 
             {item.detail && (
-              <p className="mt-2 font-display text-base leading-relaxed text-[#88796b]">
-                {item.detail}
-              </p>
-            )}
+  item.link ? (
+    <a
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mt-2 inline-flex items-center gap-2 font-display text-base text-[#92774d] underline decoration-[#b0935c]/50 underline-offset-4 transition hover:text-[#29221f] sm:text-lg"
+    >
+      {item.detail}
+      <span className="text-xs">↗</span>
+    </a>
+  ) : (
+    <p className="mt-2 font-display text-base leading-relaxed text-[#88796b]">
+      {item.detail}
+    </p>
+  )
+)}
           </div>
         </div>
       ))}
