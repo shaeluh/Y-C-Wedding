@@ -585,6 +585,7 @@ function App() {
           title: "Hymn Singing",
           detail: "NS 290",
           link: "https://www.hymnal.net/en/hymn/ns/290",
+          soundcloudLink: "https://on.soundcloud.com/REGvKbO55xHqWRFRBm",
         },
         {
           time: "9:25 AM",
@@ -610,6 +611,7 @@ function App() {
           title: "Hymn Singing",
           detail: "NS 862",
           link: "https://www.hymnal.net/en/hymn/ns/862",
+          soundcloudLink: "https://on.soundcloud.com/FQwMJTqHSv2O6Pnfwl",
         },
         {
           time: "10:55 AM",
@@ -655,21 +657,31 @@ function App() {
             </h3>
 
             {item.detail && (
-  item.link ? (
-    <a
-      href={item.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="mt-2 inline-flex items-center gap-2 font-display text-base text-[#92774d] underline decoration-[#b0935c]/50 underline-offset-4 transition hover:text-[#29221f] sm:text-lg"
-    >
-      {item.detail}
-      <span className="text-xs">↗</span>
-    </a>
-  ) : (
-    <p className="mt-2 font-display text-base leading-relaxed text-[#88796b]">
-      {item.detail}
-    </p>
-  )
+  <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-2">
+    {item.link && (
+      <a
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 font-display text-base text-[#92774d] underline decoration-[#b0935c]/50 underline-offset-4 transition hover:text-[#29221f] sm:text-lg"
+      >
+        {item.detail}
+        <span className="text-xs">↗</span>
+      </a>
+    )}
+
+    {item.soundcloudLink && (
+      <a
+        href={item.soundcloudLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 font-display text-base text-[#92774d] underline decoration-[#b0935c]/50 underline-offset-4 transition hover:text-[#29221f] sm:text-lg"
+      >
+        SoundCloud
+        <span className="text-xs">↗</span>
+      </a>
+    )}
+  </div>
 )}
           </div>
         </div>
