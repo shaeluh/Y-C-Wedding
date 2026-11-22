@@ -867,7 +867,7 @@ function App() {
 
         <div className="mx-auto w-full max-w-[280px] bg-white p-2">
           <img
-            src="/images/memories-qr.jpeg"
+            src="/images/memories2.png"
             alt="Google Drive QR code for sharing wedding photos and videos"
             className="block h-auto w-full object-contain"
           />
