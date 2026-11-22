@@ -114,20 +114,40 @@ function App() {
           </button>
         </div>
 
-        {menuOpen && (
-          <div className="border-t border-[#b59a6a]/20 bg-[#f5f1eb] px-6 py-5 md:hidden">
-            {navigation.map(([name, link]) => (
-              <a
-                key={name}
-                href={link}
-                onClick={() => setMenuOpen(false)}
-                className="block border-b border-[#b59a6a]/15 py-3 text-xs uppercase tracking-[0.18em]"
-              >
-                {name}
-              </a>
-            ))}
-          </div>
-        )}
+        
+<AnimatePresence>
+  {menuOpen && (
+    <motion.div
+      key="mobile-navigation"
+      initial={{ opacity: 0, y: -15 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -15 }}
+      transition={{
+        duration: 0.3,
+        ease: [0.22, 1, 0.36, 1],
+      }}
+      className="border-t border-[#b59a6a]/20 bg-[#f5f1eb] px-6 py-5 md:hidden"
+    >
+      {navigation.map(([name, link], index) => (
+        <motion.a
+          key={name}
+          href={link}
+          onClick={() => setMenuOpen(false)}
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.25,
+            delay: index * 0.05,
+            ease: "easeOut",
+          }}
+          className="block border-b border-[#b59a6a]/15 py-3 text-xs uppercase tracking-[0.18em]"
+        >
+          {name}
+        </motion.a>
+      ))}
+    </motion.div>
+  )}
+</AnimatePresence>
       </nav>
 
       {/* HERO SECTION */}
